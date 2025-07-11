@@ -48,7 +48,7 @@ class NLQToSPARQL:
 
 if __name__ == "__main__":
     # Example usage
-    translator = NLQToSPARQL(api_key="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")
+    translator = NLQToSPARQL(api_key="your groq api key")
     nlq = "Who started the meeting?"
     chunk_ids = ["example_chunk_id"]
     sparql_query = translator.translate(nlq, chunk_ids, novel_id="novel1")

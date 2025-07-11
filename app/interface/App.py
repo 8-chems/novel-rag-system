@@ -90,5 +90,5 @@ class WebApp:
 
 if __name__ == "__main__":
     # Example usage
-    app = WebApp(api_key="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")
+    app = WebApp(api_key="your groq api key")
     app.launch()

@@ -97,7 +97,7 @@ Example output: [0, 3, 7]
 
 
 if __name__ == "__main__":
-    chunker = SemanticChunker(api_key="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")
+    chunker = SemanticChunker(api_key="your groq api key")
     sample_text = """
     The meeting started in the boardroom. John discussed the project timeline.
     The team reviewed the budget. Meanwhile, in another city, Alice was preparing her presentation.

@@ -122,7 +122,7 @@ class RecommendationEngine:
 
 if __name__ == "__main__":
     # Example usage
-    engine = RecommendationEngine(api_key="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")
+    engine = RecommendationEngine(api_key="your groq api key")
 
     preferences = "novels with meetings and strong characters"
     recommendations = engine.recommend_novels(preferences)

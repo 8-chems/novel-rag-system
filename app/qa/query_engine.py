@@ -65,7 +65,7 @@ class QueryEngine:
 
 if __name__ == "__main__":
     # Example usage
-    engine = QueryEngine(api_key="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")
+    engine = QueryEngine(api_key="your groq api key")
     query = "Who started the meeting in the novel?"
     response = engine.process_query(query, novel_id="novel1")
 

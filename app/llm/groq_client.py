@@ -50,7 +50,7 @@ class GroqClient:
 
 if __name__ == "__main__":
     # Example usage
-    client = GroqClient(api_key="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")
+    client = GroqClient(api_key="your groq api key")
     prompt = "Return a JSON object: {\"test\": \"example\"}"
     result = client.call(prompt)
     print(f"Result: {result}")
