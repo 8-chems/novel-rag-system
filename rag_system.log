@@ -1,0 +1,584 @@
+2025-07-09 10:58:20,104 - RAGSystem - INFO - Starting database creation for directory: /data
+2025-07-09 11:02:52,007 - RAGSystem - INFO - Initialized FAISS database at faiss_db
+2025-07-09 11:06:37,145 - RAGSystem - INFO - Indexed 2 vectors
+2025-07-09 11:11:31,048 - RAGSystem - INFO - Starting semantic chunking
+2025-07-09 11:11:32,062 - RAGSystem - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 11:11:32,063 - RAGSystem - INFO - Generated 1 chunks
+2025-07-09 19:01:27,171 - RAGSystem - DEBUG - Debug message
+2025-07-09 19:01:27,218 - RAGSystem - INFO - Info message
+2025-07-09 19:01:27,218 - RAGSystem - WARNING - Warning message
+2025-07-09 19:01:27,218 - RAGSystem - ERROR - Error message
+2025-07-09 19:56:48,116 - RAGSystem - INFO - Starting database creation for directory: D:/git projects/myportfolio/novel_rag_system/app/data/
+2025-07-09 19:56:52,950 - RAGSystem - INFO - Initialized FAISS database at faiss_db
+2025-07-09 19:57:20,704 - RAGSystem - INFO - Found 1 PDF files
+2025-07-09 19:57:20,704 - RAGSystem - INFO - Starting semantic chunking
+2025-07-09 19:57:25,090 - RAGSystem - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 19:57:25,096 - RAGSystem - INFO - Generated 67 chunks
+2025-07-09 19:57:25,717 - RAGSystem - INFO - Storing keywords for chunk chunk_ecef08e7-8433-44d7-a42d-54b5b5368be5: ['time machine', 'synopsis time', 'machine wells', 'human civilization', 'future able']
+2025-07-09 19:57:25,753 - RAGSystem - INFO - Storing graph for chunk chunk_ecef08e7-8433-44d7-a42d-54b5b5368be5
+2025-07-09 20:25:44,169 - RAGSystem - INFO - Starting database creation for directory: D:/git projects/myportfolio/novel_rag_system/app/data/
+2025-07-09 20:25:48,243 - RAGSystem - INFO - Initialized FAISS database at faiss_db
+2025-07-09 20:26:20,407 - RAGSystem - INFO - Found 1 PDF files
+2025-07-09 20:26:20,409 - RAGSystem - INFO - Starting semantic chunking
+2025-07-09 20:26:21,579 - RAGSystem - ERROR - Error calling Groq API: Error code: 413 - {'error': {'message': 'Request too large for model `gemma2-9b-it` in organization `org_01jsxvbr8pey28tkfv82eb3whq` service tier `on_demand` on tokens per minute (TPM): Limit 15000, Requested 47136, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-09 20:26:21,614 - RAGSystem - INFO - Generated 67 chunks
+2025-07-09 20:26:22,501 - RAGSystem - INFO - Storing keywords for chunk chunk_05de99b0-cfcc-438c-8fa4-7988a4eed7e4: ['time machine', 'synopsis time', 'machine wells', 'human civilization', 'future able']
+2025-07-09 20:26:22,570 - RAGSystem - INFO - Storing graph for chunk chunk_05de99b0-cfcc-438c-8fa4-7988a4eed7e4
+2025-07-09 20:32:25,698 - RAGSystem - INFO - Starting database creation for directory: D:/git projects/myportfolio/novel_rag_system/app/data/
+2025-07-09 20:32:30,632 - RAGSystem - INFO - Initialized FAISS database at faiss_db
+2025-07-09 20:33:05,864 - RAGSystem - INFO - Found 1 PDF files
+2025-07-09 20:33:05,865 - RAGSystem - INFO - Starting semantic chunking
+2025-07-09 20:33:07,320 - RAGSystem - ERROR - Error calling Groq API: Error code: 413 - {'error': {'message': 'Request too large for model `gemma2-9b-it` in organization `org_01jsxvbr8pey28tkfv82eb3whq` service tier `on_demand` on tokens per minute (TPM): Limit 15000, Requested 47136, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-09 20:33:07,339 - RAGSystem - INFO - Generated 67 chunks
+2025-07-09 20:33:09,445 - RAGSystem - INFO - Storing keywords for chunk chunk_f800edd0-7bf6-4c26-8f30-c5bf90fcfa88: ['time machine', 'synopsis time', 'machine wells', 'human civilization', 'future able']
+2025-07-09 20:33:09,493 - RAGSystem - INFO - Storing graph for chunk chunk_f800edd0-7bf6-4c26-8f30-c5bf90fcfa88
+2025-07-09 20:33:09,985 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f800edd0-7bf6-4c26-8f30-c5bf90fcfa88: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:09,987 - RAGSystem - WARNING - No graph data to store for chunk chunk_f800edd0-7bf6-4c26-8f30-c5bf90fcfa88
+2025-07-09 20:33:10,712 - RAGSystem - INFO - Storing keywords for chunk chunk_ce428a14-805a-47d2-8ced-80e8f7b794e0: ['time traveller', 'traveller', 'burnt brightly', 'animated burnt', 'matter pale']
+2025-07-09 20:33:10,735 - RAGSystem - INFO - Storing graph for chunk chunk_ce428a14-805a-47d2-8ced-80e8f7b794e0
+2025-07-09 20:33:11,059 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ce428a14-805a-47d2-8ced-80e8f7b794e0: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:11,062 - RAGSystem - WARNING - No graph data to store for chunk chunk_ce428a14-805a-47d2-8ced-80e8f7b794e0
+2025-07-09 20:33:11,963 - RAGSystem - INFO - Storing keywords for chunk chunk_ab9ce500-8f4d-4eb6-adf3-a59281798552: ['fourth dimension', 'time dimensions', 'dimensions time', 'space fourth', 'dimension said']
+2025-07-09 20:33:11,995 - RAGSystem - INFO - Storing graph for chunk chunk_ab9ce500-8f4d-4eb6-adf3-a59281798552
+2025-07-09 20:33:12,414 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ab9ce500-8f4d-4eb6-adf3-a59281798552: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:12,416 - RAGSystem - WARNING - No graph data to store for chunk chunk_ab9ce500-8f4d-4eb6-adf3-a59281798552
+2025-07-09 20:33:13,373 - RAGSystem - INFO - Storing keywords for chunk chunk_2fa3f7b8-36f9-4de6-8e4b-5ede063daa2f: ['time dimension', 'space time', 'fourth dimension', 'space regarded', 'time traveller']
+2025-07-09 20:33:13,413 - RAGSystem - INFO - Storing graph for chunk chunk_2fa3f7b8-36f9-4de6-8e4b-5ede063daa2f
+2025-07-09 20:33:13,561 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2fa3f7b8-36f9-4de6-8e4b-5ede063daa2f: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:13,564 - RAGSystem - WARNING - No graph data to store for chunk chunk_2fa3f7b8-36f9-4de6-8e4b-5ede063daa2f
+2025-07-09 20:33:14,524 - RAGSystem - INFO - Storing keywords for chunk chunk_454dc1f7-00f2-467c-9802-9529900989f0: ['time traveller', 'german scholars', 'travel time', 'filby reason', 'traveller remarkably']
+2025-07-09 20:33:14,553 - RAGSystem - INFO - Storing graph for chunk chunk_454dc1f7-00f2-467c-9802-9529900989f0
+2025-07-09 20:33:14,707 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_454dc1f7-00f2-467c-9802-9529900989f0: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:14,709 - RAGSystem - WARNING - No graph data to store for chunk chunk_454dc1f7-00f2-467c-9802-9529900989f0
+2025-07-09 20:33:15,658 - RAGSystem - INFO - Storing keywords for chunk chunk_4fad74dc-c599-41ac-a292-5dddab993be2: ['time traveller', 'certain trickery', 'dozen candles', 'psychologist took', 'trick 12']
+2025-07-09 20:33:15,697 - RAGSystem - INFO - Storing graph for chunk chunk_4fad74dc-c599-41ac-a292-5dddab993be2
+2025-07-09 20:33:15,864 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_4fad74dc-c599-41ac-a292-5dddab993be2: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:15,867 - RAGSystem - WARNING - No graph data to store for chunk chunk_4fad74dc-c599-41ac-a292-5dddab993be2
+2025-07-09 20:33:16,956 - RAGSystem - INFO - Storing keywords for chunk chunk_9a51cc7f-9e8e-41ec-9ea6-078a63fb5c26: ['traveller laughed', 'traveller psychologist', 'save lamp', 'time traveller', 'lamp']
+2025-07-09 20:33:16,984 - RAGSystem - INFO - Storing graph for chunk chunk_9a51cc7f-9e8e-41ec-9ea6-078a63fb5c26
+2025-07-09 20:33:17,766 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_9a51cc7f-9e8e-41ec-9ea6-078a63fb5c26: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:17,768 - RAGSystem - WARNING - No graph data to store for chunk chunk_9a51cc7f-9e8e-41ec-9ea6-078a63fb5c26
+2025-07-09 20:33:18,816 - RAGSystem - INFO - Storing keywords for chunk chunk_e5ad9cdc-54c7-4504-91d5-ec679cfcf998: ['time traveller', 'time travelling', 'time machine', 'believed time', 'explore time']
+2025-07-09 20:33:18,840 - RAGSystem - INFO - Storing graph for chunk chunk_e5ad9cdc-54c7-4504-91d5-ec679cfcf998
+2025-07-09 20:33:19,076 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e5ad9cdc-54c7-4504-91d5-ec679cfcf998: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:19,078 - RAGSystem - WARNING - No graph data to store for chunk chunk_e5ad9cdc-54c7-4504-91d5-ec679cfcf998
+2025-07-09 20:33:19,960 - RAGSystem - INFO - Storing keywords for chunk chunk_8486d3a0-7800-4f47-8cf4-6a02919c8ffe: ['time traveller', 'previous dinner', 'doctor attended', 'candle trick', 'blowing candle']
+2025-07-09 20:33:19,984 - RAGSystem - INFO - Storing graph for chunk chunk_8486d3a0-7800-4f47-8cf4-6a02919c8ffe
+2025-07-09 20:33:20,168 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8486d3a0-7800-4f47-8cf4-6a02919c8ffe: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:20,171 - RAGSystem - WARNING - No graph data to store for chunk chunk_8486d3a0-7800-4f47-8cf4-6a02919c8ffe
+2025-07-09 20:33:21,165 - RAGSystem - INFO - Storing keywords for chunk chunk_8ab3e7d6-0f7e-464d-b5fe-afa64eff1185: ['traveller funny', 'time traveller', 'doctor time', 'traveller limping', 'traveller hated']
+2025-07-09 20:33:21,187 - RAGSystem - INFO - Storing graph for chunk chunk_8ab3e7d6-0f7e-464d-b5fe-afa64eff1185
+2025-07-09 20:33:22,063 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8ab3e7d6-0f7e-464d-b5fe-afa64eff1185: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:22,065 - RAGSystem - WARNING - No graph data to store for chunk chunk_8ab3e7d6-0f7e-464d-b5fe-afa64eff1185
+2025-07-09 20:33:23,030 - RAGSystem - INFO - Storing keywords for chunk chunk_6e17b97c-0fd0-4da4-88c9-4f67d52815c4: ['time traveller', 'future journalist', 'traveller mouth', 'journalist tried', 'editor story']
+2025-07-09 20:33:23,050 - RAGSystem - INFO - Storing graph for chunk chunk_6e17b97c-0fd0-4da4-88c9-4f67d52815c4
+2025-07-09 20:33:23,963 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_6e17b97c-0fd0-4da4-88c9-4f67d52815c4: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:23,965 - RAGSystem - WARNING - No graph data to store for chunk chunk_6e17b97c-0fd0-4da4-88c9-4f67d52815c4
+2025-07-09 20:33:24,913 - RAGSystem - INFO - Storing keywords for chunk chunk_d9ff005d-ef8d-48a6-bb18-5ecdb5482c8b: ['time traveller', 'time travelling', 'time ceased', 'inadequacy pen', 'writing feel']
+2025-07-09 20:33:24,936 - RAGSystem - INFO - Storing graph for chunk chunk_d9ff005d-ef8d-48a6-bb18-5ecdb5482c8b
+2025-07-09 20:33:25,109 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d9ff005d-ef8d-48a6-bb18-5ecdb5482c8b: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:25,111 - RAGSystem - WARNING - No graph data to store for chunk chunk_d9ff005d-ef8d-48a6-bb18-5ecdb5482c8b
+2025-07-09 20:33:26,178 - RAGSystem - INFO - Storing keywords for chunk chunk_e33ea432-5e25-4bdf-afe6-c7684f01a699: ['time travelling', 'sensations time', 'intermittent darknesses', 'peculiar sensations', 'clock moment']
+2025-07-09 20:33:26,201 - RAGSystem - INFO - Storing graph for chunk chunk_e33ea432-5e25-4bdf-afe6-c7684f01a699
+2025-07-09 20:33:26,331 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e33ea432-5e25-4bdf-afe6-c7684f01a699: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:26,333 - RAGSystem - WARNING - No graph data to store for chunk chunk_e33ea432-5e25-4bdf-afe6-c7684f01a699
+2025-07-09 20:33:27,304 - RAGSystem - INFO - Storing keywords for chunk chunk_f67af72e-8087-414d-a16d-4fcab9b1cbad: ['scarce thought', 'elusive world', 'saw cheerful', 'new sensations', 'hysterical exhilaration']
+2025-07-09 20:33:27,334 - RAGSystem - INFO - Storing graph for chunk chunk_f67af72e-8087-414d-a16d-4fcab9b1cbad
+2025-07-09 20:33:27,482 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f67af72e-8087-414d-a16d-4fcab9b1cbad: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:27,484 - RAGSystem - WARNING - No graph data to store for chunk chunk_f67af72e-8087-414d-a16d-4fcab9b1cbad
+2025-07-09 20:33:28,570 - RAGSystem - INFO - Storing keywords for chunk chunk_7e99cb48-0093-4302-b6cf-e87e72dce83b: ['saw hail', 'rhododendrons hazy', 'surrounded rhododendron', 'rhododendron', 'indistinctly rhododendrons']
+2025-07-09 20:33:28,613 - RAGSystem - INFO - Storing graph for chunk chunk_7e99cb48-0093-4302-b6cf-e87e72dce83b
+2025-07-09 20:33:29,260 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7e99cb48-0093-4302-b6cf-e87e72dce83b: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:29,262 - RAGSystem - WARNING - No graph data to store for chunk chunk_7e99cb48-0093-4302-b6cf-e87e72dce83b
+2025-07-09 20:33:30,223 - RAGSystem - INFO - Storing keywords for chunk chunk_a6f4d18f-9897-4ec5-8607-eef534fb5283: ['smote thunderstorm', 'fearfully world', 'swoop fear', 'fear struck', 'sky faint']
+2025-07-09 20:33:30,253 - RAGSystem - INFO - Storing graph for chunk chunk_a6f4d18f-9897-4ec5-8607-eef534fb5283
+2025-07-09 20:33:30,445 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_a6f4d18f-9897-4ec5-8607-eef534fb5283: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:30,448 - RAGSystem - WARNING - No graph data to store for chunk chunk_a6f4d18f-9897-4ec5-8607-eef534fb5283
+2025-07-09 20:33:31,394 - RAGSystem - INFO - Storing keywords for chunk chunk_bd7a5d09-db08-4999-9c56-123122c0a960: ['thought danger', 'hand felt', 'danger', 'gentleness certain', 'mild egotism']
+2025-07-09 20:33:31,421 - RAGSystem - INFO - Storing graph for chunk chunk_bd7a5d09-db08-4999-9c56-123122c0a960
+2025-07-09 20:33:31,625 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_bd7a5d09-db08-4999-9c56-123122c0a960: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:31,627 - RAGSystem - WARNING - No graph data to store for chunk chunk_bd7a5d09-db08-4999-9c56-123122c0a960
+2025-07-09 20:33:32,900 - RAGSystem - INFO - Storing keywords for chunk chunk_f45bf8bf-0ea8-44cb-81ff-02d3cd124fc5: ['flowers laughingly', 'past sphinx', 'irresistible merriment', 'garlanded flowers', 'flowers countless']
+2025-07-09 20:33:32,930 - RAGSystem - INFO - Storing graph for chunk chunk_f45bf8bf-0ea8-44cb-81ff-02d3cd124fc5
+2025-07-09 20:33:33,242 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f45bf8bf-0ea8-44cb-81ff-02d3cd124fc5: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:33,244 - RAGSystem - WARNING - No graph data to store for chunk chunk_f45bf8bf-0ea8-44cb-81ff-02d3cd124fc5
+2025-07-09 20:33:34,114 - RAGSystem - INFO - Storing keywords for chunk chunk_8afb8144-13a0-4e50-bdb5-c249fb959d06: ['shining fruit', 'fruit dinner', 'fruit eating', 'dining hall', 'dining']
+2025-07-09 20:33:34,138 - RAGSystem - INFO - Storing graph for chunk chunk_8afb8144-13a0-4e50-bdb5-c249fb959d06
+2025-07-09 20:33:34,292 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8afb8144-13a0-4e50-bdb5-c249fb959d06: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:34,295 - RAGSystem - WARNING - No graph data to store for chunk chunk_8afb8144-13a0-4e50-bdb5-c249fb959d06
+2025-07-09 20:33:35,213 - RAGSystem - INFO - Storing keywords for chunk chunk_569e9d3f-a2a2-41a3-97f4-bf3d66d08255: ['met people', 'people indolent', 'little hosts', 'sunset mankind', 'sunlit world']
+2025-07-09 20:33:35,234 - RAGSystem - INFO - Storing graph for chunk chunk_569e9d3f-a2a2-41a3-97f4-bf3d66d08255
+2025-07-09 20:33:35,944 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_569e9d3f-a2a2-41a3-97f4-bf3d66d08255: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:35,946 - RAGSystem - WARNING - No graph data to store for chunk chunk_569e9d3f-a2a2-41a3-97f4-bf3d66d08255
+2025-07-09 20:33:36,742 - RAGSystem - INFO - Storing keywords for chunk chunk_58b72df2-fde3-4250-ac84-108cf081d123: ['resemblance sexes', 'specialisation sexes', 'sexes expect', 'costume differences', 'sexes people']
+2025-07-09 20:33:36,772 - RAGSystem - INFO - Storing graph for chunk chunk_58b72df2-fde3-4250-ac84-108cf081d123
+2025-07-09 20:33:37,628 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_58b72df2-fde3-4250-ac84-108cf081d123: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:37,630 - RAGSystem - WARNING - No graph data to store for chunk chunk_58b72df2-fde3-4250-ac84-108cf081d123
+2025-07-09 20:33:38,806 - RAGSystem - INFO - Storing keywords for chunk chunk_dbb9415e-d874-4e93-bcc1-2b0b831338e2: ['interpretation', 'interpretation things', 'limited nature', 'nature', 'interpretation way']
+2025-07-09 20:33:38,832 - RAGSystem - INFO - Storing graph for chunk chunk_dbb9415e-d874-4e93-bcc1-2b0b831338e2
+2025-07-09 20:33:39,548 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_dbb9415e-d874-4e93-bcc1-2b0b831338e2: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:39,550 - RAGSystem - WARNING - No graph data to store for chunk chunk_dbb9415e-d874-4e93-bcc1-2b0b831338e2
+2025-07-09 20:33:41,209 - RAGSystem - INFO - Storing keywords for chunk chunk_e395bf19-b737-4139-852a-505c39de37e8: ['attained diseases', 'diseases stay', 'medicine attained', 'diseases', 'preventive medicine']
+2025-07-09 20:33:41,257 - RAGSystem - INFO - Storing graph for chunk chunk_e395bf19-b737-4139-852a-505c39de37e8
+2025-07-09 20:33:41,642 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e395bf19-b737-4139-852a-505c39de37e8: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:41,644 - RAGSystem - WARNING - No graph data to store for chunk chunk_e395bf19-b737-4139-852a-505c39de37e8
+2025-07-09 20:33:43,706 - RAGSystem - INFO - Storing keywords for chunk chunk_b2fe5ed0-0372-4f0c-8eb9-443a5470c284: ['decay artistic', 'abandoned ruins', 'beauty buildings', 'ruins simple', 'ruins']
+2025-07-09 20:33:43,755 - RAGSystem - INFO - Storing graph for chunk chunk_b2fe5ed0-0372-4f0c-8eb9-443a5470c284
+2025-07-09 20:33:44,416 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b2fe5ed0-0372-4f0c-8eb9-443a5470c284: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:44,419 - RAGSystem - WARNING - No graph data to store for chunk chunk_b2fe5ed0-0372-4f0c-8eb9-443a5470c284
+2025-07-09 20:33:45,431 - RAGSystem - INFO - Storing keywords for chunk chunk_db459cfa-c4bd-415c-85a1-8a7c2adc7758: ['sphinx startling', 'towered sphinx', 'anguish mind', 'round sphinx', 'excessive dread']
+2025-07-09 20:33:45,477 - RAGSystem - INFO - Storing graph for chunk chunk_db459cfa-c4bd-415c-85a1-8a7c2adc7758
+2025-07-09 20:33:45,885 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_db459cfa-c4bd-415c-85a1-8a7c2adc7758: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:45,887 - RAGSystem - WARNING - No graph data to store for chunk chunk_db459cfa-c4bd-415c-85a1-8a7c2adc7758
+2025-07-09 20:33:46,868 - RAGSystem - INFO - Storing keywords for chunk chunk_676ed49d-5ea5-4acb-be56-3f3ee1ae10ae: ['fear forgotten', 'night despair', 'fear reasoning', 'thought fear', 'despair things']
+2025-07-09 20:33:46,896 - RAGSystem - INFO - Storing graph for chunk chunk_676ed49d-5ea5-4acb-be56-3f3ee1ae10ae
+2025-07-09 20:33:47,592 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_676ed49d-5ea5-4acb-be56-3f3ee1ae10ae: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:47,596 - RAGSystem - WARNING - No graph data to store for chunk chunk_676ed49d-5ea5-4acb-be56-3f3ee1ae10ae
+2025-07-09 20:33:49,528 - RAGSystem - INFO - Storing keywords for chunk chunk_ce46e117-db08-4509-9e86-fd61a6767db5: ['exhausted emotion', 'stolid thought', 'emotion', 'bronze mere', 'bronze pedestal']
+2025-07-09 20:33:49,577 - RAGSystem - INFO - Storing graph for chunk chunk_ce46e117-db08-4509-9e86-fd61a6767db5
+2025-07-09 20:33:50,607 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ce46e117-db08-4509-9e86-fd61a6767db5: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:50,610 - RAGSystem - WARNING - No graph data to store for chunk chunk_ce46e117-db08-4509-9e86-fd61a6767db5
+2025-07-09 20:33:52,197 - RAGSystem - INFO - Storing keywords for chunk chunk_3c35759f-77c5-4c7a-99f5-fad98bba6882: ['verdigris', 'verdigris came', 'decorations verdigris', 'heard hammering', 'fancy hammering']
+2025-07-09 20:33:52,245 - RAGSystem - INFO - Storing graph for chunk chunk_3c35759f-77c5-4c7a-99f5-fad98bba6882
+2025-07-09 20:33:52,801 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_3c35759f-77c5-4c7a-99f5-fad98bba6882: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:52,808 - RAGSystem - WARNING - No graph data to store for chunk chunk_3c35759f-77c5-4c7a-99f5-fad98bba6882
+2025-07-09 20:33:54,370 - RAGSystem - INFO - Storing keywords for chunk chunk_b7add6fd-eb03-43d4-b807-acacbf0f7dc1: ['thames valley', 'circular wells', 'water shone', 'extensive subterranean', 'thames']
+2025-07-09 20:33:54,413 - RAGSystem - INFO - Storing graph for chunk chunk_b7add6fd-eb03-43d4-b807-acacbf0f7dc1
+2025-07-09 20:33:54,534 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b7add6fd-eb03-43d4-b807-acacbf0f7dc1: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:54,592 - RAGSystem - WARNING - No graph data to store for chunk chunk_b7add6fd-eb03-43d4-b807-acacbf0f7dc1
+2025-07-09 20:33:56,288 - RAGSystem - INFO - Storing keywords for chunk chunk_3b523d5e-aa5a-4c9e-9faa-6633ece72fb5: ['tombs occurred', 'suggestive tombs', 'tombs', 'cemeteries crematoria', 'crematoria suggestive']
+2025-07-09 20:33:56,328 - RAGSystem - INFO - Storing graph for chunk chunk_3b523d5e-aa5a-4c9e-9faa-6633ece72fb5
+2025-07-09 20:33:56,759 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_3b523d5e-aa5a-4c9e-9faa-6633ece72fb5: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:56,759 - RAGSystem - WARNING - No graph data to store for chunk chunk_3b523d5e-aa5a-4c9e-9faa-6633ece72fb5
+2025-07-09 20:33:58,251 - RAGSystem - INFO - Storing keywords for chunk chunk_e00187d9-da1d-4ea0-a86b-d7778c63b77e: ['flowers kissed', 'miniature flirtation', 'weena', 'talk weena', 'queer friendship']
+2025-07-09 20:33:58,293 - RAGSystem - INFO - Storing graph for chunk chunk_e00187d9-da1d-4ea0-a86b-d7778c63b77e
+2025-07-09 20:33:58,818 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e00187d9-da1d-4ea0-a86b-d7778c63b77e: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:33:58,818 - RAGSystem - WARNING - No graph data to store for chunk chunk_e00187d9-da1d-4ea0-a86b-d7778c63b77e
+2025-07-09 20:34:00,289 - RAGSystem - INFO - Storing keywords for chunk chunk_6120d601-eb65-482e-b9cd-9cf95f4dd280: ['dark slept', 'weena distress', 'creeping darkness', 'darkness hing', 'sleep felt']
+2025-07-09 20:34:00,323 - RAGSystem - INFO - Storing graph for chunk chunk_6120d601-eb65-482e-b9cd-9cf95f4dd280
+2025-07-09 20:34:00,450 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_6120d601-eb65-482e-b9cd-9cf95f4dd280: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:00,458 - RAGSystem - WARNING - No graph data to store for chunk chunk_6120d601-eb65-482e-b9cd-9cf95f4dd280
+2025-07-09 20:34:02,392 - RAGSystem - INFO - Storing keywords for chunk chunk_5e69dadf-3440-4253-bf82-cba627b4c2e3: ['sun hotter', 'younger darwin', 'darwin forget', 'assume sun', 'hotter earth']
+2025-07-09 20:34:02,432 - RAGSystem - INFO - Storing graph for chunk chunk_5e69dadf-3440-4253-bf82-cba627b4c2e3
+2025-07-09 20:34:02,585 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_5e69dadf-3440-4253-bf82-cba627b4c2e3: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:02,589 - RAGSystem - WARNING - No graph data to store for chunk chunk_5e69dadf-3440-4253-bf82-cba627b4c2e3
+2025-07-09 20:34:04,132 - RAGSystem - INFO - Storing keywords for chunk chunk_1d74edd7-2b9c-47e3-be34-aea3c5101f47: ['monster disappeared', 'vanished shaft', 'thing vanished', 'saw small', 'fallen pillar']
+2025-07-09 20:34:04,279 - RAGSystem - INFO - Storing graph for chunk chunk_1d74edd7-2b9c-47e3-be34-aea3c5101f47
+2025-07-09 20:34:04,425 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1d74edd7-2b9c-47e3-be34-aea3c5101f47: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:04,428 - RAGSystem - WARNING - No graph data to store for chunk chunk_1d74edd7-2b9c-47e3-be34-aea3c5101f47
+2025-07-09 20:34:06,184 - RAGSystem - INFO - Storing keywords for chunk chunk_a96099a5-351f-4bc6-9239-24c1565c4e8e: ['subterranean circumstances', 'man subterranean', 'underground habit', 'subterranean', 'shadow peculiar']
+2025-07-09 20:34:06,226 - RAGSystem - INFO - Storing graph for chunk chunk_a96099a5-351f-4bc6-9239-24c1565c4e8e
+2025-07-09 20:34:06,368 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_a96099a5-351f-4bc6-9239-24c1565c4e8e: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:06,371 - RAGSystem - WARNING - No graph data to store for chunk chunk_a96099a5-351f-4bc6-9239-24c1565c4e8e
+2025-07-09 20:34:08,179 - RAGSystem - INFO - Storing keywords for chunk chunk_73afe5ef-1053-4a25-8f31-4339f2e528eb: ['conditions labour', 'labour doubt', 'labour', 'richer people', 'civilisation']
+2025-07-09 20:34:08,225 - RAGSystem - INFO - Storing graph for chunk chunk_73afe5ef-1053-4a25-8f31-4339f2e528eb
+2025-07-09 20:34:09,006 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_73afe5ef-1053-4a25-8f31-4339f2e528eb: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:09,008 - RAGSystem - WARNING - No graph data to store for chunk chunk_73afe5ef-1053-4a25-8f31-4339f2e528eb
+2025-07-09 20:34:10,568 - RAGSystem - INFO - Storing keywords for chunk chunk_6996f296-3423-47de-9569-2d72c69a5e2a: ['trouble morlocks', 'morlocks concerned', 'morlocks odd', 'morlocks taken', 'morlocks']
+2025-07-09 20:34:10,614 - RAGSystem - INFO - Storing graph for chunk chunk_6996f296-3423-47de-9569-2d72c69a5e2a
+2025-07-09 20:34:10,749 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_6996f296-3423-47de-9569-2d72c69a5e2a: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:10,753 - RAGSystem - WARNING - No graph data to store for chunk chunk_6996f296-3423-47de-9569-2d72c69a5e2a
+2025-07-09 20:34:12,394 - RAGSystem - INFO - Storing keywords for chunk chunk_e098be32-17b9-4243-874d-3b27f1f592c1: ['green porcelain', 'porcelain', 'chinese porcelain', 'porcelain difference', 'porcelain piece']
+2025-07-09 20:34:12,445 - RAGSystem - INFO - Storing graph for chunk chunk_e098be32-17b9-4243-874d-3b27f1f592c1
+2025-07-09 20:34:12,867 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e098be32-17b9-4243-874d-3b27f1f592c1: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:12,869 - RAGSystem - WARNING - No graph data to store for chunk chunk_e098be32-17b9-4243-874d-3b27f1f592c1
+2025-07-09 20:34:14,579 - RAGSystem - INFO - Storing keywords for chunk chunk_9ad3e76b-2760-44e9-b3bc-9cf64ee34218: ['impenetrable darkness', 'darkness', 'vanishing dark', 'darkness eyes', 'darkness snatched']
+2025-07-09 20:34:14,623 - RAGSystem - INFO - Storing graph for chunk chunk_9ad3e76b-2760-44e9-b3bc-9cf64ee34218
+2025-07-09 20:34:14,773 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_9ad3e76b-2760-44e9-b3bc-9cf64ee34218: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:14,773 - RAGSystem - WARNING - No graph data to store for chunk chunk_9ad3e76b-2760-44e9-b3bc-9cf64ee34218
+2025-07-09 20:34:16,533 - RAGSystem - INFO - Storing keywords for chunk chunk_660124b6-bfe2-45c1-b2d3-93b227934dab: ['vividly darkness', 'darkness', 'glimpse underworld', 'darkness shouted', 'darkness come']
+2025-07-09 20:34:16,575 - RAGSystem - INFO - Storing graph for chunk chunk_660124b6-bfe2-45c1-b2d3-93b227934dab
+2025-07-09 20:34:16,698 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_660124b6-bfe2-45c1-b2d3-93b227934dab: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:16,709 - RAGSystem - WARNING - No graph data to store for chunk chunk_660124b6-bfe2-45c1-b2d3-93b227934dab
+2025-07-09 20:34:18,404 - RAGSystem - INFO - Storing keywords for chunk chunk_180c2b32-ad0c-4091-bc48-5989b1232196: ['violently disengaged', 'violently tugged', 'grasped violently', 'blindness bewilderment', 'anguish loss']
+2025-07-09 20:34:18,466 - RAGSystem - INFO - Storing graph for chunk chunk_180c2b32-ad0c-4091-bc48-5989b1232196
+2025-07-09 20:34:19,464 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_180c2b32-ad0c-4091-bc48-5989b1232196: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:19,466 - RAGSystem - WARNING - No graph data to store for chunk chunk_180c2b32-ad0c-4091-bc48-5989b1232196
+2025-07-09 20:34:21,231 - RAGSystem - INFO - Storing keywords for chunk chunk_0a6d74b9-1447-4ad8-9849-3bfe4c113a9b: ['sufferance morlocks', 'morlocks', 'intolerable morlocks', 'morlocks did', 'villainy morlocks']
+2025-07-09 20:34:21,284 - RAGSystem - INFO - Storing graph for chunk chunk_0a6d74b9-1447-4ad8-9849-3bfe4c113a9b
+2025-07-09 20:34:23,073 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_0a6d74b9-1447-4ad8-9849-3bfe4c113a9b: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:23,076 - RAGSystem - WARNING - No graph data to store for chunk chunk_0a6d74b9-1447-4ad8-9849-3bfe4c113a9b
+2025-07-09 20:34:24,818 - RAGSystem - INFO - Storing keywords for chunk chunk_0ce1abf9-4ead-4111-ad6a-c0a6a5ea3ede: ['evening crept', 'vases floral', 'withered flowers', 'floral decoration', 'weena grew']
+2025-07-09 20:34:24,867 - RAGSystem - INFO - Storing graph for chunk chunk_0ce1abf9-4ead-4111-ad6a-c0a6a5ea3ede
+2025-07-09 20:34:25,410 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_0ce1abf9-4ead-4111-ad6a-c0a6a5ea3ede: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:25,410 - RAGSystem - WARNING - No graph data to store for chunk chunk_0ce1abf9-4ead-4111-ad6a-c0a6a5ea3ede
+2025-07-09 20:34:27,146 - RAGSystem - INFO - Storing keywords for chunk chunk_e55721f6-afb2-4314-a0c5-948534883ec5: ['seen morlocks', 'head acacias', 'acacias far', 'acacias', 'wood thought']
+2025-07-09 20:34:27,184 - RAGSystem - INFO - Storing graph for chunk chunk_e55721f6-afb2-4314-a0c5-948534883ec5
+2025-07-09 20:34:27,360 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e55721f6-afb2-4314-a0c5-948534883ec5: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:27,360 - RAGSystem - WARNING - No graph data to store for chunk chunk_e55721f6-afb2-4314-a0c5-948534883ec5
+2025-07-09 20:34:28,953 - RAGSystem - INFO - Storing keywords for chunk chunk_42d27951-c3f9-4388-a7f7-216536875f9a: ['old constellations', 'terror thought', 'constellations', 'faintness', 'revolution occurred']
+2025-07-09 20:34:28,988 - RAGSystem - INFO - Storing graph for chunk chunk_42d27951-c3f9-4388-a7f7-216536875f9a
+2025-07-09 20:34:29,938 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_42d27951-c3f9-4388-a7f7-216536875f9a: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:29,938 - RAGSystem - WARNING - No graph data to store for chunk chunk_42d27951-c3f9-4388-a7f7-216536875f9a
+2025-07-09 20:34:31,449 - RAGSystem - INFO - Storing keywords for chunk chunk_58bc808d-7766-4fca-ad6e-334bc6377475: ['wretched aristocracy', 'wretched', 'aristocracy', 'things torment', 'trouble eloi']
+2025-07-09 20:34:31,495 - RAGSystem - INFO - Storing graph for chunk chunk_58bc808d-7766-4fca-ad6e-334bc6377475
+2025-07-09 20:34:32,033 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_58bc808d-7766-4fca-ad6e-334bc6377475: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:32,038 - RAGSystem - WARNING - No graph data to store for chunk chunk_58bc808d-7766-4fca-ad6e-334bc6377475
+2025-07-09 20:34:33,651 - RAGSystem - INFO - Storing keywords for chunk chunk_bd8b0832-ec20-490d-ba63-fd3fbc52ed19: ['rare fossils', 'huge skeleton', 'megatherium skull', 'extinct creature', 'brontosaurus museum']
+2025-07-09 20:34:33,720 - RAGSystem - INFO - Storing graph for chunk chunk_bd8b0832-ec20-490d-ba63-fd3fbc52ed19
+2025-07-09 20:34:33,961 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_bd8b0832-ec20-490d-ba63-fd3fbc52ed19: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:33,964 - RAGSystem - WARNING - No graph data to store for chunk chunk_bd8b0832-ec20-490d-ba63-fd3fbc52ed19
+2025-07-09 20:34:35,505 - RAGSystem - INFO - Storing keywords for chunk chunk_ef3199df-2ecc-44eb-a7cf-e2f70c9bed26: ['mineralogy went', 'saltpetre nitrates', 'mineralogy', 'saltpetre', 'specialist mineralogy']
+2025-07-09 20:34:35,550 - RAGSystem - INFO - Storing graph for chunk chunk_ef3199df-2ecc-44eb-a7cf-e2f70c9bed26
+2025-07-09 20:34:36,183 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ef3199df-2ecc-44eb-a7cf-e2f70c9bed26: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:36,185 - RAGSystem - WARNING - No graph data to store for chunk chunk_ef3199df-2ecc-44eb-a7cf-e2f70c9bed26
+2025-07-09 20:34:37,971 - RAGSystem - INFO - Storing keywords for chunk chunk_8f8728c6-ed66-4817-8bbd-f14172a57e2b: ['kill morlock', 'morlocks revived', 'presence morlocks', 'judged morlock', 'morlock skull']
+2025-07-09 20:34:38,021 - RAGSystem - INFO - Storing graph for chunk chunk_8f8728c6-ed66-4817-8bbd-f14172a57e2b
+2025-07-09 20:34:38,230 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8f8728c6-ed66-4817-8bbd-f14172a57e2b: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:38,234 - RAGSystem - WARNING - No graph data to store for chunk chunk_8f8728c6-ed66-4817-8bbd-f14172a57e2b
+2025-07-09 20:34:39,855 - RAGSystem - INFO - Storing keywords for chunk chunk_4ea1fdb0-6f5d-451e-9add-6a15896612a9: ['weena dance', 'naturally inventive', 'feared derelict', 'odour camphor', 'candle']
+2025-07-09 20:34:39,894 - RAGSystem - INFO - Storing graph for chunk chunk_4ea1fdb0-6f5d-451e-9add-6a15896612a9
+2025-07-09 20:34:40,082 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_4ea1fdb0-6f5d-451e-9add-6a15896612a9: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:40,085 - RAGSystem - WARNING - No graph data to store for chunk chunk_4ea1fdb0-6f5d-451e-9add-6a15896612a9
+2025-07-09 20:34:41,486 - RAGSystem - INFO - Storing keywords for chunk chunk_e7d6b3da-834f-4378-97c1-2902c1b2a1f0: ['creeping inaccessible', 'place suddenly', 'darkness emerged', 'explosion came', 'accident discovered']
+2025-07-09 20:34:41,537 - RAGSystem - INFO - Storing graph for chunk chunk_e7d6b3da-834f-4378-97c1-2902c1b2a1f0
+2025-07-09 20:34:41,760 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e7d6b3da-834f-4378-97c1-2902c1b2a1f0: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:41,763 - RAGSystem - WARNING - No graph data to store for chunk chunk_e7d6b3da-834f-4378-97c1-2902c1b2a1f0
+2025-07-09 20:34:43,263 - RAGSystem - INFO - Storing keywords for chunk chunk_b721d7bb-e465-44ae-8094-aa0ff2fed76a: ['firewood reluctantly', 'abandon firewood', 'illuminated woods', 'covering retreat', 'firewood']
+2025-07-09 20:34:43,303 - RAGSystem - INFO - Storing graph for chunk chunk_b721d7bb-e465-44ae-8094-aa0ff2fed76a
+2025-07-09 20:34:44,595 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b721d7bb-e465-44ae-8094-aa0ff2fed76a: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:44,597 - RAGSystem - WARNING - No graph data to store for chunk chunk_b721d7bb-e465-44ae-8094-aa0ff2fed76a
+2025-07-09 20:34:46,218 - RAGSystem - INFO - Storing keywords for chunk chunk_269d70d9-bfab-4821-a5e8-e7ec8e1e8775: ['weena shivered', 'weena motionless', 'approaching weena', 'looked weena', 'weena lyin']
+2025-07-09 20:34:46,255 - RAGSystem - INFO - Storing graph for chunk chunk_269d70d9-bfab-4821-a5e8-e7ec8e1e8775
+2025-07-09 20:34:49,209 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_269d70d9-bfab-4821-a5e8-e7ec8e1e8775: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:49,212 - RAGSystem - WARNING - No graph data to store for chunk chunk_269d70d9-bfab-4821-a5e8-e7ec8e1e8775
+2025-07-09 20:34:50,681 - RAGSystem - INFO - Storing keywords for chunk chunk_86d3061e-5b88-45fb-82ae-c5fd1e0b374e: ['burning wood', 'choking smoky', 'camphor turned', 'breathed smoke', 'fallen twigs']
+2025-07-09 20:34:50,726 - RAGSystem - INFO - Storing graph for chunk chunk_86d3061e-5b88-45fb-82ae-c5fd1e0b374e
+2025-07-09 20:34:51,438 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_86d3061e-5b88-45fb-82ae-c5fd1e0b374e: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:51,444 - RAGSystem - WARNING - No graph data to store for chunk chunk_86d3061e-5b88-45fb-82ae-c5fd1e0b374e
+2025-07-09 20:34:53,192 - RAGSystem - INFO - Storing keywords for chunk chunk_001ea5bb-6ef6-40a0-bd94-1b45e35a42bb: ['trees flames', 'morlocks dazzled', 'flames crept', 'morlock came', 'morlocks']
+2025-07-09 20:34:53,240 - RAGSystem - INFO - Storing graph for chunk chunk_001ea5bb-6ef6-40a0-bd94-1b45e35a42bb
+2025-07-09 20:34:53,558 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_001ea5bb-6ef6-40a0-bd94-1b45e35a42bb: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:53,558 - RAGSystem - WARNING - No graph data to store for chunk chunk_001ea5bb-6ef6-40a0-bd94-1b45e35a42bb
+2025-07-09 20:34:55,304 - RAGSystem - INFO - Storing keywords for chunk chunk_7d8ee5e0-36d6-4adc-8fd3-ab19116e9930: ['saw morlocks', 'morlocks came', 'stars morlocks', 'morlocks', 'morlocks heads']
+2025-07-09 20:34:55,354 - RAGSystem - INFO - Storing graph for chunk chunk_7d8ee5e0-36d6-4adc-8fd3-ab19116e9930
+2025-07-09 20:34:56,113 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7d8ee5e0-36d6-4adc-8fd3-ab19116e9930: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:56,120 - RAGSystem - WARNING - No graph data to store for chunk chunk_7d8ee5e0-36d6-4adc-8fd3-ab19116e9930
+2025-07-09 20:34:58,488 - RAGSystem - INFO - Storing keywords for chunk chunk_fb7c7a43-2759-4393-8f9a-6bf35314a485: ['underworld understood', 'underworld effected', 'underworld mere', 'underworld', 'ways underworld']
+2025-07-09 20:34:58,520 - RAGSystem - INFO - Storing graph for chunk chunk_fb7c7a43-2759-4393-8f9a-6bf35314a485
+2025-07-09 20:34:59,723 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_fb7c7a43-2759-4393-8f9a-6bf35314a485: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:34:59,725 - RAGSystem - WARNING - No graph data to store for chunk chunk_fb7c7a43-2759-4393-8f9a-6bf35314a485
+2025-07-09 20:35:01,605 - RAGSystem - INFO - Storing keywords for chunk chunk_d47589f1-dc4e-4951-a556-20cb1dcc6ea3: ['white sphinx', 'sphinx bronze', 'pedestal sphinx', 'sphinx crowbar', 'sphinx']
+2025-07-09 20:35:01,658 - RAGSystem - INFO - Storing graph for chunk chunk_d47589f1-dc4e-4951-a556-20cb1dcc6ea3
+2025-07-09 20:35:02,038 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d47589f1-dc4e-4951-a556-20cb1dcc6ea3: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:02,038 - RAGSystem - WARNING - No graph data to store for chunk chunk_d47589f1-dc4e-4951-a556-20cb1dcc6ea3
+2025-07-09 20:35:03,258 - RAGSystem - INFO - Storing keywords for chunk chunk_86b93b5d-7e11-4070-8737-1fa9d83f8c64: ['time travelling', 'slipped darkness', 'things palpitating', 'palpitating greyness', 'time clung']
+2025-07-09 20:35:03,298 - RAGSystem - INFO - Storing graph for chunk chunk_86b93b5d-7e11-4070-8737-1fa9d83f8c64
+2025-07-09 20:35:03,975 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_86b93b5d-7e11-4070-8737-1fa9d83f8c64: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:03,977 - RAGSystem - WARNING - No graph data to store for chunk chunk_86b93b5d-7e11-4070-8737-1fa9d83f8c64
+2025-07-09 20:35:05,058 - RAGSystem - INFO - Storing keywords for chunk chunk_4bdc0476-463b-4265-9476-381a84cf7ea2: ['lurid sky', 'eternal sea', 'sun', 'sun red', 'intensely green']
+2025-07-09 20:35:05,089 - RAGSystem - INFO - Storing graph for chunk chunk_4bdc0476-463b-4265-9476-381a84cf7ea2
+2025-07-09 20:35:05,293 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_4bdc0476-463b-4265-9476-381a84cf7ea2: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:05,293 - RAGSystem - WARNING - No graph data to store for chunk chunk_4bdc0476-463b-4265-9476-381a84cf7ea2
+2025-07-09 20:35:06,303 - RAGSystem - INFO - Storing keywords for chunk chunk_2f37d59e-d92f-46d2-bb68-fdd95c564497: ['earthy crustacea', 'crustacea creeping', 'crustacea', 'poisonous looking', 'smeared algal']
+2025-07-09 20:35:06,343 - RAGSystem - INFO - Storing graph for chunk chunk_2f37d59e-d92f-46d2-bb68-fdd95c564497
+2025-07-09 20:35:06,493 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2f37d59e-d92f-46d2-bb68-fdd95c564497: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:06,493 - RAGSystem - WARNING - No graph data to store for chunk chunk_2f37d59e-d92f-46d2-bb68-fdd95c564497
+2025-07-09 20:35:07,518 - RAGSystem - INFO - Storing keywords for chunk chunk_d6e547dd-9378-46ee-b2f0-e3ae261936af: ['darkness grew', 'darkness thickened', 'passing sun', 'darkness came', 'planet passing']
+2025-07-09 20:35:07,545 - RAGSystem - INFO - Storing graph for chunk chunk_d6e547dd-9378-46ee-b2f0-e3ae261936af
+2025-07-09 20:35:07,693 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d6e547dd-9378-46ee-b2f0-e3ae261936af: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:07,698 - RAGSystem - WARNING - No graph data to store for chunk chunk_d6e547dd-9378-46ee-b2f0-e3ae261936af
+2025-07-09 20:35:08,583 - RAGSystem - INFO - Storing keywords for chunk chunk_0ded4c0a-5ae5-4258-a412-1eddd2c40450: ['laboratory motion', 'motion appeared', 'gently slowed', 'traversed laboratory', 'speed began']
+2025-07-09 20:35:08,607 - RAGSystem - INFO - Storing graph for chunk chunk_0ded4c0a-5ae5-4258-a412-1eddd2c40450
+2025-07-09 20:35:09,429 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_0ded4c0a-5ae5-4258-a412-1eddd2c40450: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:09,599 - RAGSystem - WARNING - No graph data to store for chunk chunk_0ded4c0a-5ae5-4258-a412-1eddd2c40450
+2025-07-09 20:35:10,718 - RAGSystem - INFO - Storing keywords for chunk chunk_8043c4c8-5fb8-4a61-8767-b3b5db5a5e4d: ['taking story', 'writer stories', 'time traveller', 'traveller hesitated', 'lie prophecy']
+2025-07-09 20:35:10,753 - RAGSystem - INFO - Storing graph for chunk chunk_8043c4c8-5fb8-4a61-8767-b3b5db5a5e4d
+2025-07-09 20:35:11,918 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8043c4c8-5fb8-4a61-8767-b3b5db5a5e4d: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:11,929 - RAGSystem - WARNING - No graph data to store for chunk chunk_8043c4c8-5fb8-4a61-8767-b3b5db5a5e4d
+2025-07-09 20:35:12,889 - RAGSystem - INFO - Storing keywords for chunk chunk_f3a9af0c-4742-4c66-857f-c49b7b896b35: ['traveller lamp', 'took lamp', 'lamp', 'lamp machine', 'lamp swiftly']
+2025-07-09 20:35:12,919 - RAGSystem - INFO - Storing graph for chunk chunk_f3a9af0c-4742-4c66-857f-c49b7b896b35
+2025-07-09 20:35:13,458 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f3a9af0c-4742-4c66-857f-c49b7b896b35: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:13,469 - RAGSystem - WARNING - No graph data to store for chunk chunk_f3a9af0c-4742-4c66-857f-c49b7b896b35
+2025-07-09 20:35:14,394 - RAGSystem - INFO - Storing keywords for chunk chunk_7a7bcf7d-51d0-47c8-b61c-adee8b3ac712: ['time traveller', 'traveller ghostly', 'traveller vanished', 'time suddenly', 'door laboratory']
+2025-07-09 20:35:14,429 - RAGSystem - INFO - Storing graph for chunk chunk_7a7bcf7d-51d0-47c8-b61c-adee8b3ac712
+2025-07-09 20:35:14,674 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7a7bcf7d-51d0-47c8-b61c-adee8b3ac712: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:14,674 - RAGSystem - WARNING - No graph data to store for chunk chunk_7a7bcf7d-51d0-47c8-b61c-adee8b3ac712
+2025-07-09 20:35:15,108 - RAGSystem - INFO - Storing keywords for chunk chunk_2eb97c42-ba3c-480b-a355-2c376862438a: ['live future', 'time machine', 'man 136', '136 137', 'future']
+2025-07-09 20:35:15,134 - RAGSystem - INFO - Storing graph for chunk chunk_2eb97c42-ba3c-480b-a355-2c376862438a
+2025-07-09 20:35:15,314 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2eb97c42-ba3c-480b-a355-2c376862438a: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-09 20:35:15,319 - RAGSystem - WARNING - No graph data to store for chunk chunk_2eb97c42-ba3c-480b-a355-2c376862438a
+2025-07-09 20:35:23,125 - RAGSystem - INFO - Stored 67 chunks in FAISS database
+2025-07-09 20:35:38,134 - RAGSystem - INFO - Indexed 67 vectors
+2025-07-09 20:35:38,134 - RAGSystem - INFO - Vectors indexed in vector store
+2025-07-09 20:35:38,231 - RAGSystem - INFO - Ontology loaded and saved
+2025-07-09 20:35:38,231 - RAGSystem - INFO - Database created at faiss_db with 67 chunks
+2025-07-09 20:41:19,254 - RAGSystem - INFO - Starting database creation for directory: D:/git projects/myportfolio/novel_rag_system/app/data/
+2025-07-09 20:41:23,381 - RAGSystem - INFO - Initialized FAISS database at faiss_db
+2025-07-09 20:41:58,461 - RAGSystem - INFO - Found 1 PDF files
+2025-07-09 20:41:58,461 - RAGSystem - INFO - Starting semantic chunking
+2025-07-09 20:42:00,838 - RAGSystem - ERROR - Error calling Groq API: Error code: 413 - {'error': {'message': 'Request too large for model `gemma2-9b-it` in organization `org_01jsxvbr8pey28tkfv82eb3whq` service tier `on_demand` on tokens per minute (TPM): Limit 15000, Requested 47136, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-09 20:42:00,844 - RAGSystem - INFO - Generated 67 chunks
+2025-07-09 20:42:01,334 - RAGSystem - INFO - Storing keywords for chunk chunk_00b3b81f-01cc-49d0-a632-e6c9cc00de30: ['time machine', 'synopsis time', 'machine wells', 'human civilization', 'future able']
+2025-07-09 20:42:01,383 - RAGSystem - INFO - Storing graph for chunk chunk_00b3b81f-01cc-49d0-a632-e6c9cc00de30
+2025-07-09 20:42:05,488 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_00b3b81f-01cc-49d0-a632-e6c9cc00de30: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:05,489 - RAGSystem - WARNING - No graph data to store for chunk chunk_00b3b81f-01cc-49d0-a632-e6c9cc00de30
+2025-07-09 20:42:06,338 - RAGSystem - INFO - Storing keywords for chunk chunk_1cc00585-4c57-4c63-a369-c0805998e434: ['time traveller', 'traveller', 'burnt brightly', 'animated burnt', 'matter pale']
+2025-07-09 20:42:06,367 - RAGSystem - INFO - Storing graph for chunk chunk_1cc00585-4c57-4c63-a369-c0805998e434
+2025-07-09 20:42:08,714 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1cc00585-4c57-4c63-a369-c0805998e434: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:08,715 - RAGSystem - WARNING - No graph data to store for chunk chunk_1cc00585-4c57-4c63-a369-c0805998e434
+2025-07-09 20:42:09,410 - RAGSystem - INFO - Storing keywords for chunk chunk_9f28d92b-3b4f-49e1-8309-aaa87967e296: ['fourth dimension', 'time dimensions', 'dimensions time', 'space fourth', 'dimension said']
+2025-07-09 20:42:09,431 - RAGSystem - INFO - Storing graph for chunk chunk_9f28d92b-3b4f-49e1-8309-aaa87967e296
+2025-07-09 20:42:12,560 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_9f28d92b-3b4f-49e1-8309-aaa87967e296: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:12,563 - RAGSystem - WARNING - No graph data to store for chunk chunk_9f28d92b-3b4f-49e1-8309-aaa87967e296
+2025-07-09 20:42:13,231 - RAGSystem - INFO - Storing keywords for chunk chunk_d1ac739b-7ae7-4156-bbf6-3876bb23bef3: ['time dimension', 'space time', 'fourth dimension', 'space regarded', 'time traveller']
+2025-07-09 20:42:13,253 - RAGSystem - INFO - Storing graph for chunk chunk_d1ac739b-7ae7-4156-bbf6-3876bb23bef3
+2025-07-09 20:42:15,075 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d1ac739b-7ae7-4156-bbf6-3876bb23bef3: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:15,077 - RAGSystem - WARNING - No graph data to store for chunk chunk_d1ac739b-7ae7-4156-bbf6-3876bb23bef3
+2025-07-09 20:42:15,917 - RAGSystem - INFO - Storing keywords for chunk chunk_b618fc38-8409-4fe5-9a42-dbfda56ad0d8: ['time traveller', 'german scholars', 'travel time', 'filby reason', 'traveller remarkably']
+2025-07-09 20:42:15,939 - RAGSystem - INFO - Storing graph for chunk chunk_b618fc38-8409-4fe5-9a42-dbfda56ad0d8
+2025-07-09 20:42:18,538 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b618fc38-8409-4fe5-9a42-dbfda56ad0d8: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:18,540 - RAGSystem - WARNING - No graph data to store for chunk chunk_b618fc38-8409-4fe5-9a42-dbfda56ad0d8
+2025-07-09 20:42:19,296 - RAGSystem - INFO - Storing keywords for chunk chunk_82b8bb25-fc31-46f5-8916-f08f04809fcc: ['time traveller', 'certain trickery', 'dozen candles', 'psychologist took', 'trick 12']
+2025-07-09 20:42:19,325 - RAGSystem - INFO - Storing graph for chunk chunk_82b8bb25-fc31-46f5-8916-f08f04809fcc
+2025-07-09 20:42:21,580 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_82b8bb25-fc31-46f5-8916-f08f04809fcc: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:21,582 - RAGSystem - WARNING - No graph data to store for chunk chunk_82b8bb25-fc31-46f5-8916-f08f04809fcc
+2025-07-09 20:42:22,331 - RAGSystem - INFO - Storing keywords for chunk chunk_6114f8a4-5a79-48b6-93e2-3e8326041e0e: ['traveller laughed', 'traveller psychologist', 'save lamp', 'time traveller', 'lamp']
+2025-07-09 20:42:22,361 - RAGSystem - INFO - Storing graph for chunk chunk_6114f8a4-5a79-48b6-93e2-3e8326041e0e
+2025-07-09 20:42:36,020 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_6114f8a4-5a79-48b6-93e2-3e8326041e0e: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:36,023 - RAGSystem - WARNING - No graph data to store for chunk chunk_6114f8a4-5a79-48b6-93e2-3e8326041e0e
+2025-07-09 20:42:37,065 - RAGSystem - INFO - Storing keywords for chunk chunk_b7526e21-0684-4991-b9ec-5976ab515263: ['time traveller', 'time travelling', 'time machine', 'believed time', 'explore time']
+2025-07-09 20:42:37,121 - RAGSystem - INFO - Storing graph for chunk chunk_b7526e21-0684-4991-b9ec-5976ab515263
+2025-07-09 20:42:40,111 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b7526e21-0684-4991-b9ec-5976ab515263: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:40,113 - RAGSystem - WARNING - No graph data to store for chunk chunk_b7526e21-0684-4991-b9ec-5976ab515263
+2025-07-09 20:42:40,996 - RAGSystem - INFO - Storing keywords for chunk chunk_a43d002e-10af-4f98-944e-d8c33742d8c9: ['time traveller', 'previous dinner', 'doctor attended', 'candle trick', 'blowing candle']
+2025-07-09 20:42:41,018 - RAGSystem - INFO - Storing graph for chunk chunk_a43d002e-10af-4f98-944e-d8c33742d8c9
+2025-07-09 20:42:46,940 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_a43d002e-10af-4f98-944e-d8c33742d8c9: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:42:46,941 - RAGSystem - WARNING - No graph data to store for chunk chunk_a43d002e-10af-4f98-944e-d8c33742d8c9
+2025-07-09 20:42:47,856 - RAGSystem - INFO - Storing keywords for chunk chunk_f887372c-5356-425c-9055-a524b55511b7: ['traveller funny', 'time traveller', 'doctor time', 'traveller limping', 'traveller hated']
+2025-07-09 20:42:47,875 - RAGSystem - INFO - Storing graph for chunk chunk_f887372c-5356-425c-9055-a524b55511b7
+2025-07-09 20:43:04,288 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f887372c-5356-425c-9055-a524b55511b7: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:43:04,290 - RAGSystem - WARNING - No graph data to store for chunk chunk_f887372c-5356-425c-9055-a524b55511b7
+2025-07-09 20:43:05,127 - RAGSystem - INFO - Storing keywords for chunk chunk_5e08fc97-922e-4d21-abd1-d2e862ced242: ['time traveller', 'future journalist', 'traveller mouth', 'journalist tried', 'editor story']
+2025-07-09 20:43:05,152 - RAGSystem - INFO - Storing graph for chunk chunk_5e08fc97-922e-4d21-abd1-d2e862ced242
+2025-07-09 20:43:27,150 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_5e08fc97-922e-4d21-abd1-d2e862ced242: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:43:27,152 - RAGSystem - WARNING - No graph data to store for chunk chunk_5e08fc97-922e-4d21-abd1-d2e862ced242
+2025-07-09 20:43:27,810 - RAGSystem - INFO - Storing keywords for chunk chunk_a5fbb3aa-bab1-42d2-9b28-54b8d8a64465: ['time traveller', 'time travelling', 'time ceased', 'inadequacy pen', 'writing feel']
+2025-07-09 20:43:27,833 - RAGSystem - INFO - Storing graph for chunk chunk_a5fbb3aa-bab1-42d2-9b28-54b8d8a64465
+2025-07-09 20:43:34,990 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_a5fbb3aa-bab1-42d2-9b28-54b8d8a64465: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:43:34,992 - RAGSystem - WARNING - No graph data to store for chunk chunk_a5fbb3aa-bab1-42d2-9b28-54b8d8a64465
+2025-07-09 20:43:35,968 - RAGSystem - INFO - Storing keywords for chunk chunk_54b0a894-a872-48df-b533-2b95fb928b97: ['time travelling', 'sensations time', 'intermittent darknesses', 'peculiar sensations', 'clock moment']
+2025-07-09 20:43:35,990 - RAGSystem - INFO - Storing graph for chunk chunk_54b0a894-a872-48df-b533-2b95fb928b97
+2025-07-09 20:43:48,909 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_54b0a894-a872-48df-b533-2b95fb928b97: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:43:48,909 - RAGSystem - WARNING - No graph data to store for chunk chunk_54b0a894-a872-48df-b533-2b95fb928b97
+2025-07-09 20:43:49,923 - RAGSystem - INFO - Storing keywords for chunk chunk_4dfda4ed-c874-4ad2-87cd-d9d55b13a517: ['scarce thought', 'elusive world', 'saw cheerful', 'new sensations', 'hysterical exhilaration']
+2025-07-09 20:43:49,964 - RAGSystem - INFO - Storing graph for chunk chunk_4dfda4ed-c874-4ad2-87cd-d9d55b13a517
+2025-07-09 20:44:06,388 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_4dfda4ed-c874-4ad2-87cd-d9d55b13a517: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:44:06,390 - RAGSystem - WARNING - No graph data to store for chunk chunk_4dfda4ed-c874-4ad2-87cd-d9d55b13a517
+2025-07-09 20:44:07,462 - RAGSystem - INFO - Storing keywords for chunk chunk_458453d5-e76a-446a-99c0-5686f4f95fd7: ['saw hail', 'rhododendrons hazy', 'surrounded rhododendron', 'rhododendron', 'indistinctly rhododendrons']
+2025-07-09 20:44:07,494 - RAGSystem - INFO - Storing graph for chunk chunk_458453d5-e76a-446a-99c0-5686f4f95fd7
+2025-07-09 20:44:31,148 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_458453d5-e76a-446a-99c0-5686f4f95fd7: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:44:31,150 - RAGSystem - WARNING - No graph data to store for chunk chunk_458453d5-e76a-446a-99c0-5686f4f95fd7
+2025-07-09 20:44:32,003 - RAGSystem - INFO - Storing keywords for chunk chunk_5eb0ee18-01e9-490d-a1d8-ebc2b2ee63e0: ['smote thunderstorm', 'fearfully world', 'swoop fear', 'fear struck', 'sky faint']
+2025-07-09 20:44:32,034 - RAGSystem - INFO - Storing graph for chunk chunk_5eb0ee18-01e9-490d-a1d8-ebc2b2ee63e0
+2025-07-09 20:44:40,861 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_5eb0ee18-01e9-490d-a1d8-ebc2b2ee63e0: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:44:40,863 - RAGSystem - WARNING - No graph data to store for chunk chunk_5eb0ee18-01e9-490d-a1d8-ebc2b2ee63e0
+2025-07-09 20:44:41,637 - RAGSystem - INFO - Storing keywords for chunk chunk_09655ed3-8893-4154-af5f-3289e0700ac1: ['thought danger', 'hand felt', 'danger', 'gentleness certain', 'mild egotism']
+2025-07-09 20:44:41,656 - RAGSystem - INFO - Storing graph for chunk chunk_09655ed3-8893-4154-af5f-3289e0700ac1
+2025-07-09 20:44:49,436 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_09655ed3-8893-4154-af5f-3289e0700ac1: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:44:49,438 - RAGSystem - WARNING - No graph data to store for chunk chunk_09655ed3-8893-4154-af5f-3289e0700ac1
+2025-07-09 20:44:50,411 - RAGSystem - INFO - Storing keywords for chunk chunk_8ba669aa-f702-401a-9c1c-d3cc19bf8618: ['flowers laughingly', 'past sphinx', 'irresistible merriment', 'garlanded flowers', 'flowers countless']
+2025-07-09 20:44:50,441 - RAGSystem - INFO - Storing graph for chunk chunk_8ba669aa-f702-401a-9c1c-d3cc19bf8618
+2025-07-09 20:45:00,463 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8ba669aa-f702-401a-9c1c-d3cc19bf8618: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:45:00,464 - RAGSystem - WARNING - No graph data to store for chunk chunk_8ba669aa-f702-401a-9c1c-d3cc19bf8618
+2025-07-09 20:45:01,382 - RAGSystem - INFO - Storing keywords for chunk chunk_e014bae8-33b1-4851-9acc-1aa958729c44: ['shining fruit', 'fruit dinner', 'fruit eating', 'dining hall', 'dining']
+2025-07-09 20:45:01,407 - RAGSystem - INFO - Storing graph for chunk chunk_e014bae8-33b1-4851-9acc-1aa958729c44
+2025-07-09 20:45:11,497 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e014bae8-33b1-4851-9acc-1aa958729c44: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:45:11,499 - RAGSystem - WARNING - No graph data to store for chunk chunk_e014bae8-33b1-4851-9acc-1aa958729c44
+2025-07-09 20:45:12,355 - RAGSystem - INFO - Storing keywords for chunk chunk_7292bbd8-882e-42d8-a0ed-5f07cbc16916: ['met people', 'people indolent', 'little hosts', 'sunset mankind', 'sunlit world']
+2025-07-09 20:45:12,387 - RAGSystem - INFO - Storing graph for chunk chunk_7292bbd8-882e-42d8-a0ed-5f07cbc16916
+2025-07-09 20:45:35,048 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7292bbd8-882e-42d8-a0ed-5f07cbc16916: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:45:35,051 - RAGSystem - WARNING - No graph data to store for chunk chunk_7292bbd8-882e-42d8-a0ed-5f07cbc16916
+2025-07-09 20:45:36,438 - RAGSystem - INFO - Storing keywords for chunk chunk_ae27c793-3ad4-4411-899b-5ce37c1aca54: ['resemblance sexes', 'specialisation sexes', 'sexes expect', 'costume differences', 'sexes people']
+2025-07-09 20:45:36,476 - RAGSystem - INFO - Storing graph for chunk chunk_ae27c793-3ad4-4411-899b-5ce37c1aca54
+2025-07-09 20:45:56,498 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ae27c793-3ad4-4411-899b-5ce37c1aca54: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:45:56,501 - RAGSystem - WARNING - No graph data to store for chunk chunk_ae27c793-3ad4-4411-899b-5ce37c1aca54
+2025-07-09 20:45:58,333 - RAGSystem - INFO - Storing keywords for chunk chunk_8998bfb2-c9be-4c8a-9a92-79e4e8e23f3e: ['interpretation', 'interpretation things', 'limited nature', 'nature', 'interpretation way']
+2025-07-09 20:45:58,379 - RAGSystem - INFO - Storing graph for chunk chunk_8998bfb2-c9be-4c8a-9a92-79e4e8e23f3e
+2025-07-09 20:46:06,282 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_8998bfb2-c9be-4c8a-9a92-79e4e8e23f3e: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:46:06,284 - RAGSystem - WARNING - No graph data to store for chunk chunk_8998bfb2-c9be-4c8a-9a92-79e4e8e23f3e
+2025-07-09 20:46:08,425 - RAGSystem - INFO - Storing keywords for chunk chunk_450bc457-6b8a-44eb-808d-77857e5665fb: ['attained diseases', 'diseases stay', 'medicine attained', 'diseases', 'preventive medicine']
+2025-07-09 20:46:08,471 - RAGSystem - INFO - Storing graph for chunk chunk_450bc457-6b8a-44eb-808d-77857e5665fb
+2025-07-09 20:46:19,015 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_450bc457-6b8a-44eb-808d-77857e5665fb: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:46:19,018 - RAGSystem - WARNING - No graph data to store for chunk chunk_450bc457-6b8a-44eb-808d-77857e5665fb
+2025-07-09 20:46:20,855 - RAGSystem - INFO - Storing keywords for chunk chunk_7068dd46-4f65-4dbf-a158-c3ea29d455d7: ['decay artistic', 'abandoned ruins', 'beauty buildings', 'ruins simple', 'ruins']
+2025-07-09 20:46:20,907 - RAGSystem - INFO - Storing graph for chunk chunk_7068dd46-4f65-4dbf-a158-c3ea29d455d7
+2025-07-09 20:46:29,568 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7068dd46-4f65-4dbf-a158-c3ea29d455d7: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:46:29,573 - RAGSystem - WARNING - No graph data to store for chunk chunk_7068dd46-4f65-4dbf-a158-c3ea29d455d7
+2025-07-09 20:46:31,508 - RAGSystem - INFO - Storing keywords for chunk chunk_62c34106-35ea-406b-996b-16cc99e5f0b6: ['sphinx startling', 'towered sphinx', 'anguish mind', 'round sphinx', 'excessive dread']
+2025-07-09 20:46:31,568 - RAGSystem - INFO - Storing graph for chunk chunk_62c34106-35ea-406b-996b-16cc99e5f0b6
+2025-07-09 20:46:45,211 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_62c34106-35ea-406b-996b-16cc99e5f0b6: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:46:45,211 - RAGSystem - WARNING - No graph data to store for chunk chunk_62c34106-35ea-406b-996b-16cc99e5f0b6
+2025-07-09 20:46:47,183 - RAGSystem - INFO - Storing keywords for chunk chunk_c1aaea23-2f7b-462a-a9ec-aa8c2223f233: ['fear forgotten', 'night despair', 'fear reasoning', 'thought fear', 'despair things']
+2025-07-09 20:46:47,231 - RAGSystem - INFO - Storing graph for chunk chunk_c1aaea23-2f7b-462a-a9ec-aa8c2223f233
+2025-07-09 20:47:02,277 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_c1aaea23-2f7b-462a-a9ec-aa8c2223f233: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:47:02,277 - RAGSystem - WARNING - No graph data to store for chunk chunk_c1aaea23-2f7b-462a-a9ec-aa8c2223f233
+2025-07-09 20:47:04,224 - RAGSystem - INFO - Storing keywords for chunk chunk_44141eb6-70a0-4da9-a3a7-d4bf7e556a33: ['exhausted emotion', 'stolid thought', 'emotion', 'bronze mere', 'bronze pedestal']
+2025-07-09 20:47:04,274 - RAGSystem - INFO - Storing graph for chunk chunk_44141eb6-70a0-4da9-a3a7-d4bf7e556a33
+2025-07-09 20:47:15,543 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_44141eb6-70a0-4da9-a3a7-d4bf7e556a33: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:47:15,546 - RAGSystem - WARNING - No graph data to store for chunk chunk_44141eb6-70a0-4da9-a3a7-d4bf7e556a33
+2025-07-09 20:47:17,258 - RAGSystem - INFO - Storing keywords for chunk chunk_80629ca4-daf1-4efc-9ffe-d7dadb198abc: ['verdigris', 'verdigris came', 'decorations verdigris', 'heard hammering', 'fancy hammering']
+2025-07-09 20:47:17,313 - RAGSystem - INFO - Storing graph for chunk chunk_80629ca4-daf1-4efc-9ffe-d7dadb198abc
+2025-07-09 20:47:27,279 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_80629ca4-daf1-4efc-9ffe-d7dadb198abc: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:47:27,279 - RAGSystem - WARNING - No graph data to store for chunk chunk_80629ca4-daf1-4efc-9ffe-d7dadb198abc
+2025-07-09 20:47:29,318 - RAGSystem - INFO - Storing keywords for chunk chunk_7e29570e-d38c-49ed-974c-6bab61816038: ['thames valley', 'circular wells', 'water shone', 'extensive subterranean', 'thames']
+2025-07-09 20:47:29,352 - RAGSystem - INFO - Storing graph for chunk chunk_7e29570e-d38c-49ed-974c-6bab61816038
+2025-07-09 20:47:38,167 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7e29570e-d38c-49ed-974c-6bab61816038: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:47:38,170 - RAGSystem - WARNING - No graph data to store for chunk chunk_7e29570e-d38c-49ed-974c-6bab61816038
+2025-07-09 20:47:40,020 - RAGSystem - INFO - Storing keywords for chunk chunk_0e0c1087-648f-4866-be61-7630d137e737: ['tombs occurred', 'suggestive tombs', 'tombs', 'cemeteries crematoria', 'crematoria suggestive']
+2025-07-09 20:47:40,069 - RAGSystem - INFO - Storing graph for chunk chunk_0e0c1087-648f-4866-be61-7630d137e737
+2025-07-09 20:47:48,844 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_0e0c1087-648f-4866-be61-7630d137e737: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:47:48,844 - RAGSystem - WARNING - No graph data to store for chunk chunk_0e0c1087-648f-4866-be61-7630d137e737
+2025-07-09 20:47:50,552 - RAGSystem - INFO - Storing keywords for chunk chunk_04b19208-dd18-4326-8b50-c110b0021057: ['flowers kissed', 'miniature flirtation', 'weena', 'talk weena', 'queer friendship']
+2025-07-09 20:47:50,602 - RAGSystem - INFO - Storing graph for chunk chunk_04b19208-dd18-4326-8b50-c110b0021057
+2025-07-09 20:48:00,907 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_04b19208-dd18-4326-8b50-c110b0021057: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:48:00,907 - RAGSystem - WARNING - No graph data to store for chunk chunk_04b19208-dd18-4326-8b50-c110b0021057
+2025-07-09 20:48:02,813 - RAGSystem - INFO - Storing keywords for chunk chunk_cfa8bf90-1f40-4112-962b-58dc46ed1bf9: ['dark slept', 'weena distress', 'creeping darkness', 'darkness hing', 'sleep felt']
+2025-07-09 20:48:02,858 - RAGSystem - INFO - Storing graph for chunk chunk_cfa8bf90-1f40-4112-962b-58dc46ed1bf9
+2025-07-09 20:48:15,241 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_cfa8bf90-1f40-4112-962b-58dc46ed1bf9: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:48:15,243 - RAGSystem - WARNING - No graph data to store for chunk chunk_cfa8bf90-1f40-4112-962b-58dc46ed1bf9
+2025-07-09 20:48:17,168 - RAGSystem - INFO - Storing keywords for chunk chunk_085495bc-def8-4b1a-a66a-fd5710661200: ['sun hotter', 'younger darwin', 'darwin forget', 'assume sun', 'hotter earth']
+2025-07-09 20:48:17,218 - RAGSystem - INFO - Storing graph for chunk chunk_085495bc-def8-4b1a-a66a-fd5710661200
+2025-07-09 20:48:25,767 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_085495bc-def8-4b1a-a66a-fd5710661200: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:48:25,767 - RAGSystem - WARNING - No graph data to store for chunk chunk_085495bc-def8-4b1a-a66a-fd5710661200
+2025-07-09 20:48:27,583 - RAGSystem - INFO - Storing keywords for chunk chunk_e036de1d-ad6e-41c1-bfc4-c170901ba770: ['monster disappeared', 'vanished shaft', 'thing vanished', 'saw small', 'fallen pillar']
+2025-07-09 20:48:27,627 - RAGSystem - INFO - Storing graph for chunk chunk_e036de1d-ad6e-41c1-bfc4-c170901ba770
+2025-07-09 20:48:42,221 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_e036de1d-ad6e-41c1-bfc4-c170901ba770: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:48:42,221 - RAGSystem - WARNING - No graph data to store for chunk chunk_e036de1d-ad6e-41c1-bfc4-c170901ba770
+2025-07-09 20:48:44,078 - RAGSystem - INFO - Storing keywords for chunk chunk_7856a2c3-5d50-4df7-94b3-2e727de90c34: ['subterranean circumstances', 'man subterranean', 'underground habit', 'subterranean', 'shadow peculiar']
+2025-07-09 20:48:44,123 - RAGSystem - INFO - Storing graph for chunk chunk_7856a2c3-5d50-4df7-94b3-2e727de90c34
+2025-07-09 20:48:54,412 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_7856a2c3-5d50-4df7-94b3-2e727de90c34: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:48:54,417 - RAGSystem - WARNING - No graph data to store for chunk chunk_7856a2c3-5d50-4df7-94b3-2e727de90c34
+2025-07-09 20:48:56,288 - RAGSystem - INFO - Storing keywords for chunk chunk_f119838c-2d14-4f28-9393-358b46266d13: ['conditions labour', 'labour doubt', 'labour', 'richer people', 'civilisation']
+2025-07-09 20:48:56,332 - RAGSystem - INFO - Storing graph for chunk chunk_f119838c-2d14-4f28-9393-358b46266d13
+2025-07-09 20:49:07,023 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f119838c-2d14-4f28-9393-358b46266d13: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:07,023 - RAGSystem - WARNING - No graph data to store for chunk chunk_f119838c-2d14-4f28-9393-358b46266d13
+2025-07-09 20:49:08,913 - RAGSystem - INFO - Storing keywords for chunk chunk_2f20d392-c8cf-4b5c-b6a7-b8f46cc8ff94: ['trouble morlocks', 'morlocks concerned', 'morlocks odd', 'morlocks taken', 'morlocks']
+2025-07-09 20:49:08,970 - RAGSystem - INFO - Storing graph for chunk chunk_2f20d392-c8cf-4b5c-b6a7-b8f46cc8ff94
+2025-07-09 20:49:15,120 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2f20d392-c8cf-4b5c-b6a7-b8f46cc8ff94: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:15,123 - RAGSystem - WARNING - No graph data to store for chunk chunk_2f20d392-c8cf-4b5c-b6a7-b8f46cc8ff94
+2025-07-09 20:49:16,982 - RAGSystem - INFO - Storing keywords for chunk chunk_a40708d0-5dff-4c39-9c14-76dcd4bbabd6: ['green porcelain', 'porcelain', 'chinese porcelain', 'porcelain difference', 'porcelain piece']
+2025-07-09 20:49:17,027 - RAGSystem - INFO - Storing graph for chunk chunk_a40708d0-5dff-4c39-9c14-76dcd4bbabd6
+2025-07-09 20:49:27,043 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_a40708d0-5dff-4c39-9c14-76dcd4bbabd6: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:27,047 - RAGSystem - WARNING - No graph data to store for chunk chunk_a40708d0-5dff-4c39-9c14-76dcd4bbabd6
+2025-07-09 20:49:28,858 - RAGSystem - INFO - Storing keywords for chunk chunk_2c7c2256-92c9-4c19-9a23-c8e7e9aae483: ['impenetrable darkness', 'darkness', 'vanishing dark', 'darkness eyes', 'darkness snatched']
+2025-07-09 20:49:28,905 - RAGSystem - INFO - Storing graph for chunk chunk_2c7c2256-92c9-4c19-9a23-c8e7e9aae483
+2025-07-09 20:49:39,247 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2c7c2256-92c9-4c19-9a23-c8e7e9aae483: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:39,247 - RAGSystem - WARNING - No graph data to store for chunk chunk_2c7c2256-92c9-4c19-9a23-c8e7e9aae483
+2025-07-09 20:49:41,092 - RAGSystem - INFO - Storing keywords for chunk chunk_3b47a320-b1ea-4219-bcee-6665c881b717: ['vividly darkness', 'darkness', 'glimpse underworld', 'darkness shouted', 'darkness come']
+2025-07-09 20:49:41,138 - RAGSystem - INFO - Storing graph for chunk chunk_3b47a320-b1ea-4219-bcee-6665c881b717
+2025-07-09 20:49:46,957 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_3b47a320-b1ea-4219-bcee-6665c881b717: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:46,957 - RAGSystem - WARNING - No graph data to store for chunk chunk_3b47a320-b1ea-4219-bcee-6665c881b717
+2025-07-09 20:49:48,973 - RAGSystem - INFO - Storing keywords for chunk chunk_26495416-3355-4de1-b61f-3cd05f2c708f: ['violently disengaged', 'violently tugged', 'grasped violently', 'blindness bewilderment', 'anguish loss']
+2025-07-09 20:49:49,028 - RAGSystem - INFO - Storing graph for chunk chunk_26495416-3355-4de1-b61f-3cd05f2c708f
+2025-07-09 20:49:59,716 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_26495416-3355-4de1-b61f-3cd05f2c708f: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:49:59,719 - RAGSystem - WARNING - No graph data to store for chunk chunk_26495416-3355-4de1-b61f-3cd05f2c708f
+2025-07-09 20:50:01,737 - RAGSystem - INFO - Storing keywords for chunk chunk_25b64396-8ef5-4442-938f-79c2b5e5e420: ['sufferance morlocks', 'morlocks', 'intolerable morlocks', 'morlocks did', 'villainy morlocks']
+2025-07-09 20:50:01,796 - RAGSystem - INFO - Storing graph for chunk chunk_25b64396-8ef5-4442-938f-79c2b5e5e420
+2025-07-09 20:50:13,384 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_25b64396-8ef5-4442-938f-79c2b5e5e420: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:50:13,387 - RAGSystem - WARNING - No graph data to store for chunk chunk_25b64396-8ef5-4442-938f-79c2b5e5e420
+2025-07-09 20:50:15,417 - RAGSystem - INFO - Storing keywords for chunk chunk_153980d9-52c9-4615-8a5c-40958535b5b1: ['evening crept', 'vases floral', 'withered flowers', 'floral decoration', 'weena grew']
+2025-07-09 20:50:15,472 - RAGSystem - INFO - Storing graph for chunk chunk_153980d9-52c9-4615-8a5c-40958535b5b1
+2025-07-09 20:50:22,567 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_153980d9-52c9-4615-8a5c-40958535b5b1: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:50:22,567 - RAGSystem - WARNING - No graph data to store for chunk chunk_153980d9-52c9-4615-8a5c-40958535b5b1
+2025-07-09 20:50:24,411 - RAGSystem - INFO - Storing keywords for chunk chunk_3d1c0ee3-8220-47a2-9baf-5de3cbdb26e4: ['seen morlocks', 'head acacias', 'acacias far', 'acacias', 'wood thought']
+2025-07-09 20:50:24,461 - RAGSystem - INFO - Storing graph for chunk chunk_3d1c0ee3-8220-47a2-9baf-5de3cbdb26e4
+2025-07-09 20:50:33,782 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_3d1c0ee3-8220-47a2-9baf-5de3cbdb26e4: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:50:33,782 - RAGSystem - WARNING - No graph data to store for chunk chunk_3d1c0ee3-8220-47a2-9baf-5de3cbdb26e4
+2025-07-09 20:50:35,569 - RAGSystem - INFO - Storing keywords for chunk chunk_b9c49ffe-e9d5-4e03-88d8-f27ca5aae57f: ['old constellations', 'terror thought', 'constellations', 'faintness', 'revolution occurred']
+2025-07-09 20:50:35,619 - RAGSystem - INFO - Storing graph for chunk chunk_b9c49ffe-e9d5-4e03-88d8-f27ca5aae57f
+2025-07-09 20:50:43,462 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b9c49ffe-e9d5-4e03-88d8-f27ca5aae57f: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:50:43,462 - RAGSystem - WARNING - No graph data to store for chunk chunk_b9c49ffe-e9d5-4e03-88d8-f27ca5aae57f
+2025-07-09 20:50:45,077 - RAGSystem - INFO - Storing keywords for chunk chunk_f4ccb87f-c0db-4307-ab8a-40a32e17bc90: ['wretched aristocracy', 'wretched', 'aristocracy', 'things torment', 'trouble eloi']
+2025-07-09 20:50:45,128 - RAGSystem - INFO - Storing graph for chunk chunk_f4ccb87f-c0db-4307-ab8a-40a32e17bc90
+2025-07-09 20:50:53,730 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f4ccb87f-c0db-4307-ab8a-40a32e17bc90: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:50:53,732 - RAGSystem - WARNING - No graph data to store for chunk chunk_f4ccb87f-c0db-4307-ab8a-40a32e17bc90
+2025-07-09 20:50:55,718 - RAGSystem - INFO - Storing keywords for chunk chunk_1b69d39c-673b-43ad-9605-0922070f1809: ['rare fossils', 'huge skeleton', 'megatherium skull', 'extinct creature', 'brontosaurus museum']
+2025-07-09 20:50:55,768 - RAGSystem - INFO - Storing graph for chunk chunk_1b69d39c-673b-43ad-9605-0922070f1809
+2025-07-09 20:51:08,637 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1b69d39c-673b-43ad-9605-0922070f1809: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:51:08,637 - RAGSystem - WARNING - No graph data to store for chunk chunk_1b69d39c-673b-43ad-9605-0922070f1809
+2025-07-09 20:51:10,319 - RAGSystem - INFO - Storing keywords for chunk chunk_b90ea925-4a5b-4561-a1e5-98976231bdf9: ['mineralogy went', 'saltpetre nitrates', 'mineralogy', 'saltpetre', 'specialist mineralogy']
+2025-07-09 20:51:10,370 - RAGSystem - INFO - Storing graph for chunk chunk_b90ea925-4a5b-4561-a1e5-98976231bdf9
+2025-07-09 20:51:23,228 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_b90ea925-4a5b-4561-a1e5-98976231bdf9: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:51:23,228 - RAGSystem - WARNING - No graph data to store for chunk chunk_b90ea925-4a5b-4561-a1e5-98976231bdf9
+2025-07-09 20:51:25,157 - RAGSystem - INFO - Storing keywords for chunk chunk_1fe40bc3-c1a6-434a-9cf3-2b24d291ffc1: ['kill morlock', 'morlocks revived', 'presence morlocks', 'judged morlock', 'morlock skull']
+2025-07-09 20:51:25,227 - RAGSystem - INFO - Storing graph for chunk chunk_1fe40bc3-c1a6-434a-9cf3-2b24d291ffc1
+2025-07-09 20:51:28,867 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1fe40bc3-c1a6-434a-9cf3-2b24d291ffc1: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:51:28,867 - RAGSystem - WARNING - No graph data to store for chunk chunk_1fe40bc3-c1a6-434a-9cf3-2b24d291ffc1
+2025-07-09 20:51:30,828 - RAGSystem - INFO - Storing keywords for chunk chunk_57e6e970-dca0-466a-93a3-84642819f7aa: ['weena dance', 'naturally inventive', 'feared derelict', 'odour camphor', 'candle']
+2025-07-09 20:51:30,888 - RAGSystem - INFO - Storing graph for chunk chunk_57e6e970-dca0-466a-93a3-84642819f7aa
+2025-07-09 20:51:39,496 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_57e6e970-dca0-466a-93a3-84642819f7aa: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:51:39,499 - RAGSystem - WARNING - No graph data to store for chunk chunk_57e6e970-dca0-466a-93a3-84642819f7aa
+2025-07-09 20:51:41,033 - RAGSystem - INFO - Storing keywords for chunk chunk_1d4ba6e8-8af0-48bc-a8de-7aa19790ec60: ['creeping inaccessible', 'place suddenly', 'darkness emerged', 'explosion came', 'accident discovered']
+2025-07-09 20:51:41,084 - RAGSystem - INFO - Storing graph for chunk chunk_1d4ba6e8-8af0-48bc-a8de-7aa19790ec60
+2025-07-09 20:51:52,137 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1d4ba6e8-8af0-48bc-a8de-7aa19790ec60: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:51:52,139 - RAGSystem - WARNING - No graph data to store for chunk chunk_1d4ba6e8-8af0-48bc-a8de-7aa19790ec60
+2025-07-09 20:51:53,700 - RAGSystem - INFO - Storing keywords for chunk chunk_0d0eba19-7d2d-4393-97d4-6c06c432186f: ['firewood reluctantly', 'abandon firewood', 'illuminated woods', 'covering retreat', 'firewood']
+2025-07-09 20:51:53,747 - RAGSystem - INFO - Storing graph for chunk chunk_0d0eba19-7d2d-4393-97d4-6c06c432186f
+2025-07-09 20:52:03,432 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_0d0eba19-7d2d-4393-97d4-6c06c432186f: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:52:03,432 - RAGSystem - WARNING - No graph data to store for chunk chunk_0d0eba19-7d2d-4393-97d4-6c06c432186f
+2025-07-09 20:52:04,947 - RAGSystem - INFO - Storing keywords for chunk chunk_f6973766-f57f-48d0-89de-8c292eee8dfd: ['weena shivered', 'weena motionless', 'approaching weena', 'looked weena', 'weena lyin']
+2025-07-09 20:52:04,992 - RAGSystem - INFO - Storing graph for chunk chunk_f6973766-f57f-48d0-89de-8c292eee8dfd
+2025-07-09 20:52:12,837 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_f6973766-f57f-48d0-89de-8c292eee8dfd: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:52:12,837 - RAGSystem - WARNING - No graph data to store for chunk chunk_f6973766-f57f-48d0-89de-8c292eee8dfd
+2025-07-09 20:52:14,313 - RAGSystem - INFO - Storing keywords for chunk chunk_3682cd25-b21e-4a7f-8636-4a49b5b2602d: ['burning wood', 'choking smoky', 'camphor turned', 'breathed smoke', 'fallen twigs']
+2025-07-09 20:52:14,370 - RAGSystem - INFO - Storing graph for chunk chunk_3682cd25-b21e-4a7f-8636-4a49b5b2602d
+2025-07-09 20:52:23,507 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_3682cd25-b21e-4a7f-8636-4a49b5b2602d: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:52:23,517 - RAGSystem - WARNING - No graph data to store for chunk chunk_3682cd25-b21e-4a7f-8636-4a49b5b2602d
+2025-07-09 20:52:25,097 - RAGSystem - INFO - Storing keywords for chunk chunk_94431b11-e23d-4a4b-8d04-47969fb35669: ['trees flames', 'morlocks dazzled', 'flames crept', 'morlock came', 'morlocks']
+2025-07-09 20:52:25,147 - RAGSystem - INFO - Storing graph for chunk chunk_94431b11-e23d-4a4b-8d04-47969fb35669
+2025-07-09 20:52:36,297 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_94431b11-e23d-4a4b-8d04-47969fb35669: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:52:36,307 - RAGSystem - WARNING - No graph data to store for chunk chunk_94431b11-e23d-4a4b-8d04-47969fb35669
+2025-07-09 20:52:37,613 - RAGSystem - INFO - Storing keywords for chunk chunk_c2e2e1c7-3a71-4624-b080-f75f30b723f5: ['saw morlocks', 'morlocks came', 'stars morlocks', 'morlocks', 'morlocks heads']
+2025-07-09 20:52:37,653 - RAGSystem - INFO - Storing graph for chunk chunk_c2e2e1c7-3a71-4624-b080-f75f30b723f5
+2025-07-09 20:52:53,467 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_c2e2e1c7-3a71-4624-b080-f75f30b723f5: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:52:53,467 - RAGSystem - WARNING - No graph data to store for chunk chunk_c2e2e1c7-3a71-4624-b080-f75f30b723f5
+2025-07-09 20:52:55,166 - RAGSystem - INFO - Storing keywords for chunk chunk_1d2803cb-f267-423c-ac19-6bfcc949ffd7: ['underworld understood', 'underworld effected', 'underworld mere', 'underworld', 'ways underworld']
+2025-07-09 20:52:55,203 - RAGSystem - INFO - Storing graph for chunk chunk_1d2803cb-f267-423c-ac19-6bfcc949ffd7
+2025-07-09 20:53:02,667 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1d2803cb-f267-423c-ac19-6bfcc949ffd7: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:53:02,667 - RAGSystem - WARNING - No graph data to store for chunk chunk_1d2803cb-f267-423c-ac19-6bfcc949ffd7
+2025-07-09 20:53:04,163 - RAGSystem - INFO - Storing keywords for chunk chunk_2018d069-5873-455d-ab8d-6e5cf5500c7c: ['white sphinx', 'sphinx bronze', 'pedestal sphinx', 'sphinx crowbar', 'sphinx']
+2025-07-09 20:53:04,205 - RAGSystem - INFO - Storing graph for chunk chunk_2018d069-5873-455d-ab8d-6e5cf5500c7c
+2025-07-09 20:53:13,287 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_2018d069-5873-455d-ab8d-6e5cf5500c7c: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:53:13,287 - RAGSystem - WARNING - No graph data to store for chunk chunk_2018d069-5873-455d-ab8d-6e5cf5500c7c
+2025-07-09 20:53:14,703 - RAGSystem - INFO - Storing keywords for chunk chunk_d4df7456-fbee-416a-ace4-6389e1ae2d4e: ['time travelling', 'slipped darkness', 'things palpitating', 'palpitating greyness', 'time clung']
+2025-07-09 20:53:14,742 - RAGSystem - INFO - Storing graph for chunk chunk_d4df7456-fbee-416a-ace4-6389e1ae2d4e
+2025-07-09 20:53:27,507 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d4df7456-fbee-416a-ace4-6389e1ae2d4e: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:53:27,507 - RAGSystem - WARNING - No graph data to store for chunk chunk_d4df7456-fbee-416a-ace4-6389e1ae2d4e
+2025-07-09 20:53:29,284 - RAGSystem - INFO - Storing keywords for chunk chunk_1ae493ad-1697-4ddc-b923-975340d4e3e0: ['lurid sky', 'eternal sea', 'sun', 'sun red', 'intensely green']
+2025-07-09 20:53:29,317 - RAGSystem - INFO - Storing graph for chunk chunk_1ae493ad-1697-4ddc-b923-975340d4e3e0
+2025-07-09 20:53:37,747 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_1ae493ad-1697-4ddc-b923-975340d4e3e0: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:53:37,747 - RAGSystem - WARNING - No graph data to store for chunk chunk_1ae493ad-1697-4ddc-b923-975340d4e3e0
+2025-07-09 20:53:39,277 - RAGSystem - INFO - Storing keywords for chunk chunk_03c75b51-c424-4449-a5fa-2c54e367228b: ['earthy crustacea', 'crustacea creeping', 'crustacea', 'poisonous looking', 'smeared algal']
+2025-07-09 20:53:39,320 - RAGSystem - INFO - Storing graph for chunk chunk_03c75b51-c424-4449-a5fa-2c54e367228b
+2025-07-09 20:53:53,567 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_03c75b51-c424-4449-a5fa-2c54e367228b: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:53:53,572 - RAGSystem - WARNING - No graph data to store for chunk chunk_03c75b51-c424-4449-a5fa-2c54e367228b
+2025-07-09 20:53:55,047 - RAGSystem - INFO - Storing keywords for chunk chunk_d4d4ba98-74dc-4694-a370-112ad237a4a9: ['darkness grew', 'darkness thickened', 'passing sun', 'darkness came', 'planet passing']
+2025-07-09 20:53:55,082 - RAGSystem - INFO - Storing graph for chunk chunk_d4d4ba98-74dc-4694-a370-112ad237a4a9
+2025-07-09 20:54:14,537 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_d4d4ba98-74dc-4694-a370-112ad237a4a9: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:54:14,537 - RAGSystem - WARNING - No graph data to store for chunk chunk_d4d4ba98-74dc-4694-a370-112ad237a4a9
+2025-07-09 20:54:16,007 - RAGSystem - INFO - Storing keywords for chunk chunk_5d93f298-0f99-45c4-8294-fda85c5d6bc7: ['laboratory motion', 'motion appeared', 'gently slowed', 'traversed laboratory', 'speed began']
+2025-07-09 20:54:16,047 - RAGSystem - INFO - Storing graph for chunk chunk_5d93f298-0f99-45c4-8294-fda85c5d6bc7
+2025-07-09 20:54:31,157 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_5d93f298-0f99-45c4-8294-fda85c5d6bc7: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:54:31,157 - RAGSystem - WARNING - No graph data to store for chunk chunk_5d93f298-0f99-45c4-8294-fda85c5d6bc7
+2025-07-09 20:54:32,627 - RAGSystem - INFO - Storing keywords for chunk chunk_994623a7-0e3f-4669-88ed-110b6c8ab00d: ['taking story', 'writer stories', 'time traveller', 'traveller hesitated', 'lie prophecy']
+2025-07-09 20:54:32,662 - RAGSystem - INFO - Storing graph for chunk chunk_994623a7-0e3f-4669-88ed-110b6c8ab00d
+2025-07-09 20:54:35,622 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_994623a7-0e3f-4669-88ed-110b6c8ab00d: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:54:35,627 - RAGSystem - WARNING - No graph data to store for chunk chunk_994623a7-0e3f-4669-88ed-110b6c8ab00d
+2025-07-09 20:54:37,109 - RAGSystem - INFO - Storing keywords for chunk chunk_ba9bed79-dc47-4b8f-b1a1-01d6ac16241f: ['traveller lamp', 'took lamp', 'lamp', 'lamp machine', 'lamp swiftly']
+2025-07-09 20:54:37,150 - RAGSystem - INFO - Storing graph for chunk chunk_ba9bed79-dc47-4b8f-b1a1-01d6ac16241f
+2025-07-09 20:54:47,902 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_ba9bed79-dc47-4b8f-b1a1-01d6ac16241f: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:54:47,907 - RAGSystem - WARNING - No graph data to store for chunk chunk_ba9bed79-dc47-4b8f-b1a1-01d6ac16241f
+2025-07-09 20:54:49,384 - RAGSystem - INFO - Storing keywords for chunk chunk_64837e8c-13ef-4fb5-bcc6-95c549551d35: ['time traveller', 'traveller ghostly', 'traveller vanished', 'time suddenly', 'door laboratory']
+2025-07-09 20:54:49,437 - RAGSystem - INFO - Storing graph for chunk chunk_64837e8c-13ef-4fb5-bcc6-95c549551d35
+2025-07-09 20:55:01,359 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_64837e8c-13ef-4fb5-bcc6-95c549551d35: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:55:01,361 - RAGSystem - WARNING - No graph data to store for chunk chunk_64837e8c-13ef-4fb5-bcc6-95c549551d35
+2025-07-09 20:55:01,806 - RAGSystem - INFO - Storing keywords for chunk chunk_09d7789b-10e0-464b-b795-49bf07359574: ['live future', 'time machine', 'man 136', '136 137', 'future']
+2025-07-09 20:55:01,851 - RAGSystem - INFO - Storing graph for chunk chunk_09d7789b-10e0-464b-b795-49bf07359574
+2025-07-09 20:55:07,507 - RAGSystem - ERROR - Error calling Groq API for chunk chunk_09d7789b-10e0-464b-b795-49bf07359574: Expecting value: line 1 column 1 (char 0)
+2025-07-09 20:55:07,507 - RAGSystem - WARNING - No graph data to store for chunk chunk_09d7789b-10e0-464b-b795-49bf07359574
+2025-07-09 20:55:16,802 - RAGSystem - INFO - Stored 67 chunks in FAISS database
+2025-07-09 20:55:28,977 - RAGSystem - INFO - Indexed 67 vectors
+2025-07-09 20:55:28,982 - RAGSystem - INFO - Vectors indexed in vector store
+2025-07-09 20:55:28,995 - RAGSystem - INFO - Ontology loaded and saved
+2025-07-09 20:55:28,997 - RAGSystem - INFO - Database created at faiss_db with 67 chunks

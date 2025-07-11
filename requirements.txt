@@ -1,0 +1,10 @@
+chromadb==0.5.5
+sentence-transformers==3.0.1
+keybert==0.8.5
+nltk==3.8.1
+requests==2.32.3
+PyPDF2==3.0.1
+scikit-learn==1.5.1
+rdflib==7.0.0
+gradio==4.44.0
+onnxruntime
